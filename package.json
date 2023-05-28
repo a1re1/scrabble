@@ -1,0 +1,26 @@
+{
+  "name": "scrabble",
+  "version": "1.0.0",
+  "description": "scrabble cloud function",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bucket-auth": "$Env:GOOGLE_APPLICATION_CREDENTIALS = 'D:/projects/personal-website-215401-e0f80c41854a.json'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1re1/scrabble.git"
+  },
+  "author": "a1re1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a1re1/scrabble/issues"
+  },
+  "homepage": "https://github.com/a1re1/scrabble#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^6.10.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
