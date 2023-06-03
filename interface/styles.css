@@ -1,0 +1,15 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    width: 800px;
+    height: 800px;
+}
+
+.dropdown {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+}
