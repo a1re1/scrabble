@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>scrabble.io</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://cdn.wijmo.com/5.latest/controls/wijmo.min.js" type="text/javascript"></script>
+    <script src="https://cdn.wijmo.com/5.latest/interop/angular/wijmo.angular.min.js" type="text/javascript"></script>
+    <link href="app.css" rel="stylesheet" />
+    <script src="drag-n-drop.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="appCtrl">
+<button id="validate">send</button>
+<button onclick="location.reload()">reload</button>
+<div class="container">
+    <div id="game">
+        <table id="board"></table>
+        <table class="hand">
+            <tr class="row">
+                <td class="slot" id="h-0">
+                    <div class="tile" draggable="true"></div>
+                </td>
+                <td class="slot" id="h-1">
+                    <div class="tile" draggable="true"></div>
+                </td>
+                <td class="slot" id="h-2">
+                    <div class="tile" draggable="true"></div>
+                </td>
+                <td class="slot" id="h-3">
+                    <div class="tile" draggable="true"></div>
+                </td>
+                <td class="slot" id="h-4">
+                    <div class="tile" draggable="true"></div>
+                </td>
+                <td class="slot" id="h-5">
+                    <div class="tile" draggable="true"></div>
+                </td>
+                <td class="slot" id="h-6">
+                    <div class="tile" draggable="true"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
